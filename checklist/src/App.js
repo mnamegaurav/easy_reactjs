@@ -1,7 +1,12 @@
+import React from "react";
+
+import HomeComponent from "./components/HomeComponent";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hi Gaurav</h1>
+      <HomeComponent />
+      <h1> THis is not a blue text</h1>
     </div>
   );
 }
