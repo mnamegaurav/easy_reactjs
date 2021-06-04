@@ -1,12 +1,11 @@
 import React from "react";
 
-import HomeComponent from "./components/HomeComponent";
+import LayoutCompoent from "./components/LayoutCompoent";
 
 function App() {
   return (
     <div className="App">
-      <HomeComponent />
-      <h1> THis is not a blue text</h1>
+      <LayoutCompoent />
     </div>
   );
 }
